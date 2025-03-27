@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro - Tu Gimnasio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="contenedor">
+        <cabecera>
+            <nav>
+                <div class="logotipo">
+                    <br>
+                    <a href="index.html">MARTIAL</a><b>FIT</b>
+                </div>
+                <ul class="menu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Clases</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </cabecera>
+
+        <main>
+            <section class="seccion-bienvenida">
+                <h1>¡GRACIAS POR ELEGIRNOS!</h1>
+                <p>Tu camino hacia una mejor versión comienza ahora.</p>
+                <div class="divisor"></div>
+            </section>
+
+            <section class="seccion-registro">
+                <div class="contenedor-formulario">
+                    <h2>REGÍSTRATE AHORA</h2>
+                    <form id="registration-form">
+                        <div class="grupo-formulario">
+                            <label for="name">Nombre completo</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="grupo-formulario">
+                            <label for="email">Correo electrónico</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="grupo-formulario">
+                            <label for="phone">Teléfono</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        
+                        <div class="grupo-formulario">
+                            <label for="membership">Tipo de membresía</label>
+                            <select id="membership" name="membership">
+                                <option value="basic">Básica (24,99€/mes)</option>
+                                <option value="standard">Estándar (34,99€/mes)</option>
+                                <option value="premium">Premium (49,99€/mes)</option>
+                            </select>
+                        </div>
+                        
+                        <div class="grupo-casilla">
+                            <input type="checkbox" id="terms" name="terms" required>
+                            <label for="terms">Acepto los términos y condiciones</label>
+                        </div>
+                        
+                        <button type="submit" class="boton-enviar">COMPLETAR REGISTRO</button>
+                    </form>
+                </div>
+                
+                <div class="beneficios">
+                    <h3>BENEFICIOS</h3>
+                    <ul>
+                        <li>Acceso ilimitado a instalaciones</li>
+                        <li>Entrenadores personales certificados</li>
+                        <li>Programa personalizado de ejercicios</li>
+                        <li>Seguimiento continuo de progreso</li>
+                        <li>Comunidad motivadora</li>
+                    </ul>
+                    <div class="promocion">
+                        <p>¡OFERTA ESPECIAL!</p>
+                        <p>50% de descuento en la matrícula si te registras hoy</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <pie-de-pagina>
+            <div class="contenido-pie">
+                <div class="seccion-pie">
+                    <h4>MARTIAL<span class="texto-amarillo">FIT</span></h4>
+                    <p>Tu gimnasio de confianza desde 2010.</p>
+                </div>
+                <div class="seccion-pie">
+                    <h4>CONTACTO</h4>
+                    <p>Email: info@martialfit.com</p>
+                    <p>Teléfono: 91 123 45 67</p>
+                </div>
+                <div class="seccion-pie">
+                    <h4>SÍGUENOS</h4>
+                    <div class="iconos-sociales">
+                        <a href="#" class="icono-social"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="icono-social"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="icono-social"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="derechos-autor">
+                <p>&copy; 2025 MARTIAL FIT. Todos los derechos reservados.</p>
+            </div>
+            
+        </pie-de-pagina>
+    </div>
+</body>
+</html>
